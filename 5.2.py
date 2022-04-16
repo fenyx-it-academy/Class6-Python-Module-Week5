@@ -18,6 +18,7 @@ class Rectangle:
 class Parallelepipede(Rectangle):
     def __init__(self, length, width , height):
         Rectangle.__init__(self, length, width)
+        #super().__init__(length, width)
         self.height = height
         
     def volume(self):
