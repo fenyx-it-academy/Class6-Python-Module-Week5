@@ -9,7 +9,7 @@ class Person:
     
 class Student(Person):
     def __init__(self, name , age , section):
-        Person.__init__(self,name, age)
+        super().__init__(name, age)
         self.section = section
     
     def displayStudent(self):
